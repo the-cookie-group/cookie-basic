@@ -60,34 +60,36 @@ get_header();
         </section>
 
         <!-- Third section -->
-        <section class="third-section">
+        <section class="third-section section-min-height">
             <div class="container-fluid p-0">
                 <div class="row no-gutters spanlist">
                     <?php
-					wp_nav_menu(array(
-						'theme_location' => 'menu-2',
+                    wp_nav_menu(array(
+                        'theme_location' => 'menu-2',
                         'menu_id'        => 'ck-menu-2',
                         'theme_class'    => 'ck-menu-2-class'
-					));
-					?>
+                    ));
+                    ?>
                 </div>
             </div>
         </section>
         <!-- Fourth section -->
-        <section class="fourth-section space-padding">
+        <section class="fourth-section section-min-height">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <?php
-                        // query for the about page
-                        $your_query = new WP_Query('pagename=content');
-                        // "loop" through query (even though it's just one page) 
-                        while ($your_query->have_posts()) : $your_query->the_post();
-                            the_content();
-                        endwhile;
-                        // reset post data (important!)
-                        wp_reset_postdata();
-                        ?>
+                        <div>
+                            <?php
+                            // query for the about page
+                            $your_query = new WP_Query('pagename=content');
+                            // "loop" through query (even though it's just one page) 
+                            while ($your_query->have_posts()) : $your_query->the_post();
+                                the_content();
+                            endwhile;
+                            // reset post data (important!)
+                            wp_reset_postdata();
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
