@@ -1,0 +1,46 @@
+/*
+    =========================================================================================
+    >>>  HEADER CSS
+    =========================================================================================
+    The header CSS file
+    
+*/
+
+/*=================================================================
+    Default style (Mobile)
+=================================================================*/
+.cookie-header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 99;
+    background-color: #f7f7f7;
+}
+    .cookie-header .ck-top-menu {}
+    .cookie-header .ck-top-menu ul li {
+        display: block;
+        margin: 1rem;
+        border-radius: 5px;
+    }
+    .cookie-header .ck-top-menu ul a {
+        display: block;
+        padding: .5rem;
+    }
+
+
+    
+/*=================================================================
+    Desktop style
+=================================================================*/
+
+@media only screen and (min-width: 768px) {
+    .cookie-header .ck-top-menu div {
+        margin-right: 0;
+        margin-left: auto;
+    }
+        .cookie-header .ck-top-menu ul li {
+            margin: 0rem 1rem;
+            display: inline-block;
+        }
+}

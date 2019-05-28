@@ -1,0 +1,36 @@
+/*
+    =========================================================================================
+    >>>  FOOTER CSS
+    =========================================================================================
+    The footer CSS file
+    
+*/
+
+/*=================================================================
+    Default style (Mobile)
+=================================================================*/
+.cookie-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+    .cookie-footer .site-info {
+        text-align: center;
+    }
+    .cookie-footer .row-1 {
+        margin-bottom: 2rem;
+    }
+
+
+
+
+
+/*=================================================================
+    Desktop style
+=================================================================*/
+@media only screen and (min-width: 768px) {
+    .cookie-footer {}
+    .cookie-footer .cookie-footer-col {
+        text-align: center;
+    }
+}

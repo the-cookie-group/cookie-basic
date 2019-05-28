@@ -1,0 +1,76 @@
+/*
+    =========================================================================================
+    >>>  MAIN CSS
+    =========================================================================================
+    The main CSS file
+    
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+/*=================================================================
+    General styling tags
+=================================================================*/
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+/*=================================================================
+    Navigation
+=================================================================*/
+
+a {
+    color: royalblue;
+}
+
+a:visited {
+    color: royalblue;
+}
+
+a:hover, a:focus, a:active {
+    color: midnightblue;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+/*=================================================================
+    List and elemnts style 
+=================================================================*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*=================================================================
+    Section & spacing
+=================================================================*/
+
+.site-content {
+    padding-top: 56px;
+}
+
+
+section.space-padding, div.space-padding {
+    padding: 6rem 0rem;
+}
+
+@media only screen and (min-width: 768px) {
+    section.section-min-height {
+        min-height: 550px;
+    }
+    div.section-min-height {
+        min-height: 550px!important;
+    }
+}

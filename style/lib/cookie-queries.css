@@ -1,0 +1,36 @@
+/*
+    =========================================================================================
+    >>> CK-BOOTSTRAP
+    =========================================================================================
+*/
+
+/*=================================================================
+    Window size queries
+=================================================================*/
+@media only screen and (min-width: 768px) {
+    .hidein__desktop {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hidein__phone {
+        display: none;
+    }
+}
+
+/*=================================================================
+    Smartphones, touchscreens Queries
+=================================================================*/
+/* The device has a touch screen */
+@media (hover: none) and (pointer: coarse) {
+    .hidein__touchable-screen {
+        display: none!important;
+    }
+}
+
+/* The device does not have a touchable screen */
+@media (hover: hover) and (pointer: fine) {
+    .hidein__click-screen {
+        display: none!important;
+    }
+}
