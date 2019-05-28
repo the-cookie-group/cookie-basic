@@ -10,6 +10,8 @@ function ck_load_style() {
     wp_enqueue_style('footer-stylesheet', get_template_directory_uri() . '/style/footer.css');
     // Header CSS
     wp_enqueue_style('header-stylesheet', get_template_directory_uri() . '/style/header.css');
+    // Page.css
+    wp_enqueue_style('page-stylesheet', get_template_directory_uri() . '/style/page.css');
 }
 add_action('wp_enqueue_scripts', 'ck_load_style');
 

@@ -22,8 +22,13 @@ The cookie basic theme is completly responsive and free to use.
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
+4. You may need to create this pages in your WordPress:
+    - A page named: description
+    - A page named: content
+    - A page named: informations
+    - You can change this pages using the file "front-page.php"
 
-# Frequently Asked Questions ==
+# Frequently Asked Questions
 
 = Does this theme support any plugins? =
 
@@ -31,7 +36,7 @@ cookiebasic includes support for Infinite Scroll in Jetpack.
 
 # Changelog
 
-= 1.0 - May 12 2015 =
+1.0 - May 12 2015
 * Initial release
 
 # Credits 

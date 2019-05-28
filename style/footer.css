@@ -20,6 +20,9 @@
     .cookie-footer .row-1 {
         margin-bottom: 2rem;
     }
+        .cookie-footer .row-1 .cookie-footer-col {
+            text-align: center;
+        }
 
 
 
@@ -29,8 +32,4 @@
     Desktop style
 =================================================================*/
 @media only screen and (min-width: 768px) {
-    .cookie-footer {}
-    .cookie-footer .cookie-footer-col {
-        text-align: center;
-    }
 }

@@ -38,7 +38,7 @@ get_header();
         <section class="second-section section-min-height">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-12 col-md-6 second-text-description">
+                    <div class="col-12 col-md-6 order-md-2 second-text-description">
                         <div class="text">
                             <?php
                             // query for the about page
