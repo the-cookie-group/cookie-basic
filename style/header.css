@@ -27,6 +27,13 @@
         display: block;
         padding: .5rem;
     }
+    .cookie-header .current-menu-item {
+        background-color: #999;
+    }
+        .cookie-header .current-menu-item a {
+            color: #fff;
+        }
+
 
 
     

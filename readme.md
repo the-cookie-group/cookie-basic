@@ -11,6 +11,11 @@ License URI: LICENSE
 
 A starter theme called cookiebasic.
 
+# Coming
+
+* Modify images and content of the main page using the WordPress back-end, for the moment everything needs to be changed from the code (except the pages content).
+
+
 # Description 
 
 The Cookie Basic is a WordPress theme, this theme has been built on the famous underscore theme. This theme has been create to help web developpers and designers to have
@@ -26,7 +31,7 @@ The cookie basic theme is completly responsive and free to use.
     - A page named: description
     - A page named: content
     - A page named: informations
-    - You can change this pages using the file "front-page.php"
+    - You can change this pages in the file "front-page.php"
 
 # Frequently Asked Questions
 
