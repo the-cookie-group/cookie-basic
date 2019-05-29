@@ -13,6 +13,9 @@ A starter theme called cookiebasic.
 
 # Coming
 
+* Pages to finish styling:
+*   Single.php
+*   404.php 
 * Modify images and content of the main page using the WordPress back-end, for the moment everything needs to be changed from the code (except the pages content).
 
 
